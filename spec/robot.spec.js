@@ -20,6 +20,7 @@ describe("Robot", function() {
   });
 
   it("turn right from north", function() {
+    // debugger;
     robot.orient('north');
     robot.turnRight();
     expect(robot.bearing).toEqual('east');
